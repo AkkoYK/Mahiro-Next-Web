@@ -42,6 +42,10 @@
   width: var(--sidebar-width);
   box-sizing: border-box;
   padding: 20px;
+  background-image: url(https://t.mwm.moe/moemp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   background-color: var(--second);
   display: flex;
   flex-direction: column;
@@ -137,6 +141,7 @@
   position: relative;
   padding-top: 20px;
   padding-bottom: 20px;
+  color: var(--mahiro);
 }
 
 .sidebar-logo {
@@ -166,6 +171,7 @@
 .chat-item {
   padding: 10px 14px;
   background-color: var(--white);
+  backdrop-filter: brightness(0.95) blur(5px);
   border-radius: 10px;
   margin-bottom: 10px;
   box-shadow: var(--card-shadow);
@@ -217,7 +223,7 @@
 .chat-item-info {
   display: flex;
   justify-content: space-between;
-  color: rgb(166, 166, 166);
+  color: var(--info);
   font-size: 12px;
   margin-top: 8px;
   animation: slide-in ease 0.3s;

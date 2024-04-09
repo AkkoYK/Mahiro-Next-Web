@@ -1,5 +1,6 @@
 .icon-button {
   background-color: var(--white);
+  backdrop-filter: brightness(0.95) blur(5px);
   border-radius: 10px;
   display: flex;
   align-items: center;

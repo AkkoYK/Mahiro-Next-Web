@@ -82,7 +82,7 @@ const cn = {
     IsContext: "预设提示词",
   },
   Export: {
-    Title: "分享聊天记录",
+    Title: "分享与真寻的聊天记录",
     Copy: "全部复制",
     Download: "下载文件",
     Share: "分享到 ShareGPT",
@@ -162,12 +162,12 @@ const cn = {
     },
 
     Update: {
-      Version: (x: string) => `当前版本：${x}`,
+      Version: (x: string) => `MahiroAi前端当前版本：${x}`,
       IsLatest: "已是最新版本",
       CheckUpdate: "检查更新",
       IsChecking: "正在检查更新...",
       FoundUpdate: (x: string) => `发现新版本：${x}`,
-      GoToUpdate: "前往更新",
+      GoToUpdate: "请联系小真寻的挚友Akko更新吧~",
     },
     SendKey: "发送键",
     Theme: "主题",
@@ -353,7 +353,7 @@ const cn = {
       },
     },
 
-    Model: "模型 (model)",
+    Model: "真寻模型 (model)",
     Temperature: {
       Title: "随机性 (temperature)",
       SubTitle: "值越大，回复越随机",
@@ -376,8 +376,8 @@ const cn = {
     },
   },
   Store: {
-    DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    DefaultTopic: "新聊天，与真寻~",
+    BotHello: "诶嘿~这里是真寻酱~ 生文、生图、识图、生成视频、联网搜索——维基、谷歌、必应、学术、B站等等统统在行哒！不愧是咱呀~ 有什么事都可以和小真寻说哟！",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
@@ -411,9 +411,9 @@ const cn = {
   Mask: {
     Name: "面具",
     Page: {
-      Title: "预设角色面具",
-      SubTitle: (count: number) => `${count} 个预设角色定义`,
-      Search: "搜索角色面具",
+      Title: "预设真寻面具",
+      SubTitle: (count: number) => `${count} 个预设真寻定义`,
+      Search: "搜索真寻面具",
       Create: "新建",
     },
     Item: {
@@ -431,11 +431,11 @@ const cn = {
       Clone: "克隆预设",
     },
     Config: {
-      Avatar: "角色头像",
-      Name: "角色名称",
+      Avatar: "真寻头像",
+      Name: "真寻名称",
       Sync: {
         Title: "使用全局设置",
-        SubTitle: "当前对话是否使用全局模型设置",
+        SubTitle: "当前对话是否使用全局真寻模型设置",
         Confirm: "当前对话的自定义设置将会被自动覆盖，确认启用全局设置？",
       },
       HideContext: {
@@ -454,8 +454,8 @@ const cn = {
     Skip: "直接开始",
     NotShow: "不再展示",
     ConfirmNoShow: "确认禁用？禁用后可以随时在设置中重新启用。",
-    Title: "挑选一个面具",
-    SubTitle: "现在开始，与面具背后的灵魂思维碰撞",
+    Title: "挑个面具吧！",
+    SubTitle: "现在开始，与面具背后「绪山真寻」的灵魂思维碰撞",
     More: "查看全部",
   },
 
@@ -479,7 +479,7 @@ const cn = {
     Description: {
       Title: "只有清除上下文之后的消息会被展示",
     },
-    Model: "模型",
+    Model: "真寻模型",
     Messages: "消息",
     Topic: "主题",
     Time: "时间",
