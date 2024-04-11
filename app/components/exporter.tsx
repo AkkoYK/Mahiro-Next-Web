@@ -532,7 +532,7 @@ export function ImagePreviewer(props: {
 
           <div>
             <div className={styles["main-title"]}>
-              <img src="https://alist.ykload.top/p/home/Public/MahiroAi/MahiroAi-white.png" style="width: 100%;max-width: 350px;">
+              <img src="https://alist.ykload.top/p/home/Public/MahiroAi/MahiroAi-white.png" style={{ width: '100%', maxWidth: '350px' }} />
             </div>
             <div className={styles["icons"]}>
               <ExportAvatar avatar={config.avatar} />
