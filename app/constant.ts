@@ -219,11 +219,11 @@ export const DEFAULT_MODELS = [
     },
   },
   {
-    name: "gpt-4-vision-preview",
+    name: "Mahiro-Universe",
     available: true,
     provider: {
       id: "openai",
-      providerName: "OpenAI",
+      providerName: "YKload",
       providerType: "openai",
     },
   },
@@ -282,11 +282,11 @@ export const DEFAULT_MODELS = [
     },
   },
   {
-    name: "gpt-3.5-turbo-16k-0613",
+    name: "Mahiro-Lightning",
     available: true,
     provider: {
       id: "openai",
-      providerName: "OpenAI",
+      providerName: "YKload",
       providerType: "openai",
     },
   },
