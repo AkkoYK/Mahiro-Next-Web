@@ -162,7 +162,7 @@ const cn = {
     },
 
     Update: {
-      Version: (x: string) => `MahiroAi前端当前版本：${x}`,
+      Version: (x: string) => `MahiroAi 前端版本：${x}`,
       IsLatest: "已是最新版本",
       CheckUpdate: "检查更新",
       IsChecking: "正在检查更新...",
@@ -432,7 +432,7 @@ const cn = {
     },
     Config: {
       Avatar: "真寻头像",
-      Name: "真寻名称",
+      Name: "对话名称",
       Sync: {
         Title: "使用全局设置",
         SubTitle: "当前对话是否使用全局真寻模型设置",

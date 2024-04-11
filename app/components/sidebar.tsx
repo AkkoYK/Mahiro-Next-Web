@@ -155,13 +155,10 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          MahiroAi
-        </div>
-        <div className={styles["sidebar-sub-title"]}>
-          是可爱の小真寻哒~
+          <img src="https://alist.ykload.top/p/home/Public/MahiroAi/MahiroAi.png" style="max-height: 100px;">
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
-          <ChatGptIcon />
+          <img src="https://alist.ykload.top/p/home/Public/MahiroAi/MahiroAi-icon-512.png" style="max-height: 48px;">
         </div>
       </div>
 

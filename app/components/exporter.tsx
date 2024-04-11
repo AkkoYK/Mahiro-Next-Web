@@ -386,13 +386,6 @@ export function PreviewActions(props: {
           icon={<DownloadIcon />}
           onClick={props.download}
         ></IconButton>
-        <IconButton
-          text={Locale.Export.Share}
-          bordered
-          shadow
-          icon={loading ? <LoadingIcon /> : <ShareIcon />}
-          onClick={share}
-        ></IconButton>
       </div>
       <div
         style={{
@@ -536,19 +529,10 @@ export function ImagePreviewer(props: {
         ref={previewRef}
       >
         <div className={styles["chat-info"]}>
-          <div className={styles["logo"] + " no-dark"}>
-            <NextImage
-              src={ChatGptIcon.src}
-              alt="logo"
-              width={50}
-              height={50}
-            />
-          </div>
 
           <div>
-            <div className={styles["main-title"]}>MahiroAi</div>
-            <div className={styles["sub-title"]}>
-              github.com/AkkoYK/Mahiro-Next-Web
+            <div className={styles["main-title"]}>
+              <img src="https://alist.ykload.top/p/home/Public/MahiroAi/MahiroAi-white.png" style="width: 100%;max-width: 350px;">
             </div>
             <div className={styles["icons"]}>
               <ExportAvatar avatar={config.avatar} />
