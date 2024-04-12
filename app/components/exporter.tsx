@@ -21,6 +21,7 @@ import {
 
 import CopyIcon from "../icons/copy.svg";
 import LoadingIcon from "../icons/three-dots.svg";
+import MahiroWhiteIcon from "../icons/MahiroAi-white.png";
 import ChatGptIcon from "../icons/chatgpt.png";
 import ShareIcon from "../icons/share.svg";
 import BotIcon from "../icons/bot.png";
@@ -533,7 +534,13 @@ export function ImagePreviewer(props: {
 
           <div>
             <div className={styles["main-title"]}>
-              <img src="https://alist.ykload.top/p/home/Public/MahiroAi/MahiroAi-white.png" style={{ width: '100%', maxWidth: '350px' }} />
+            <NextImage
+              src={MahiroWhiteIcon.src}
+              alt="MahiroAi"
+              layout="responsive"
+              objectFit="contain"
+              width={350}
+            />
             </div>
             <div className={styles["icons"]}>
               <ExportAvatar avatar={config.avatar} />

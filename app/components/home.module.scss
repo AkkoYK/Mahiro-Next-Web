@@ -66,6 +66,27 @@
     }
   }
 
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 1) 35%);
+    transition: background 1s ease-in-out;
+    animation: fadeout 1s 3s forwards;
+  }
+
+  @keyframes fadeout {
+    0% {
+      background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 1) 35%);
+    }
+    100% {
+      background: linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9) 20%, rgba(255, 255, 255, 0) 35%);
+    }
+  }
+
   &:hover,
   &:active {
     .sidebar-drag {
@@ -78,15 +99,6 @@
   }
 }
 
-.sidebar::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 0.9)20%, rgba(255, 255, 255, 0) 30%);
-}
 
 .sidebar-drag {
   $width: 14px;
@@ -153,6 +165,21 @@
   padding-bottom: 20px;
   color: var(--mahiro);
   text-shadow: 0 0 10px #ff0099;
+  opacity: 0;
+  transform: scale(0);
+  transition: opacity 0.5s ease-in-out, transform 1s ease-in-out;
+  animation: fadein 0.5s 3s forwards;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .sidebar-logo {
