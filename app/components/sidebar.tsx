@@ -155,10 +155,10 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          <img src="https://alist.ykload.top/p/home/Public/MahiroAi/MahiroAi.png" style={{ maxHeight: '100px' }} />
+          <img src="https://mahiro-1259756460.cos.ap-chengdu.myqcloud.com/sidebar-pic%2FMahiroAi.png" style={{ maxHeight: '100px' }} />
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
-          <img src="https://alist.ykload.top/p/home/Public/MahiroAi/MahiroAi-icon-512.png" style={{ maxHeight: '48px' }} />
+          <img src="https://mahiro-1259756460.cos.ap-chengdu.myqcloud.com/sidebar-pic%2FMahiroAi-icon-512.png" style={{ maxHeight: '48px' }} />
         </div>
       </div>
 

@@ -290,6 +290,18 @@
   padding-bottom: 40px;
   position: relative;
   overscroll-behavior: none;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  animation: opin 0.5s 3.25s forwards;
+}
+
+@keyframes opin {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .chat-body-main-title {
@@ -511,6 +523,9 @@
   flex-direction: column;
   border-top: var(--border-in-light);
   box-shadow: var(--card-shadow);
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  animation: opin 0.5s 3.5s forwards;
 
   .chat-input-actions {
     .chat-input-action {
