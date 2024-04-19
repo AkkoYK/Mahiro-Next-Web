@@ -9,14 +9,14 @@ const en: LocaleType = {
   WIP: "All plugins have been enabled by default and cannot be customized yet.",
   Error: {
     Unauthorized: isApp
-      ? "Unauthorized access, please enter access code in [auth](/#/auth) page"
-      : "Unauthorized access, please enter access code in [auth](/#/auth) page",
+      ? "Access code has expired, revalidate to use it. [Tap here](/#/auth) to revalidate"
+      : "Access code has expired, revalidate to use it. [Tap here](/#/auth) to revalidate",
   },
   Auth: {
     Title: "Mahiro will check check u~",
-    Tips: "Please enter MahiroAi access code below",
-    SubTips: "Or enter your OpenAI or Google API Key",
-    Input: "access code",
+    Tips: "Please enter MahiroAi access code below. The code can be obtained from MahiroAi's official Q-group (955769404).",
+    SubTips: "Please enter MahiroAi access code below. The code can be obtained from MahiroAi's official Q-group (955769404).",
+    Input: "MahiroAi access code",
     Confirm: "Confirm",
   },
   ChatItem: {
