@@ -6,15 +6,15 @@ import { LocaleType } from "./index";
 
 const isApp = !!getClientConfig()?.isApp;
 const en: LocaleType = {
-  WIP: "Coming Soon...",
+  WIP: "All plugins have been enabled by default and cannot be customized yet.",
   Error: {
     Unauthorized: isApp
-      ? "Invalid API Key, please check it in [Settings](/#/settings) page."
-      : "Unauthorized access, please enter access code in [auth](/#/auth) page, or enter your OpenAI API Key.",
+      ? "Unauthorized access, please enter access code in [auth](/#/auth) page"
+      : "Unauthorized access, please enter access code in [auth](/#/auth) page",
   },
   Auth: {
-    Title: "Need Access Code",
-    Tips: "Please enter access code below",
+    Title: "Mahiro will check check u~",
+    Tips: "Please enter MahiroAi access code below",
     SubTips: "Or enter your OpenAI or Google API Key",
     Input: "access code",
     Confirm: "Confirm",
@@ -163,11 +163,11 @@ const en: LocaleType = {
     },
 
     Update: {
-      Version: (x: string) => `Version: ${x}`,
+      Version: (x: string) => `Version of MahiroAi-FrontEnd: ${x}`,
       IsLatest: "Latest version",
       CheckUpdate: "Check Update",
       IsChecking: "Checking update...",
-      FoundUpdate: (x: string) => `Found new version: ${x}`,
+      FoundUpdate: (x: string) => `Found new version, need tell Akko: ${x}`,
       GoToUpdate: "Update",
     },
     SendKey: "Send Key",
@@ -356,7 +356,7 @@ const en: LocaleType = {
       },
     },
 
-    Model: "Model",
+    Model: "Mahiro Model",
     Temperature: {
       Title: "Temperature",
       SubTitle: "A larger value makes the more random output",
@@ -480,7 +480,7 @@ const en: LocaleType = {
     Description: {
       Title: "Only messages after clearing the context will be displayed",
     },
-    Model: "Model",
+    Model: "Mahiro Model",
     Messages: "Messages",
     Topic: "Topic",
     Time: "Time",

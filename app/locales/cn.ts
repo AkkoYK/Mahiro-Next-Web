@@ -7,8 +7,8 @@ const cn = {
   WIP: "默认启用全部插件，目前无法自行调整哦",
   Error: {
     Unauthorized: isApp
-      ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
-      : "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
+      ? "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码哦"
+      : "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码哦",
   },
   Auth: {
     Title: "滴滴~ 小真寻要检查一下你哦",
@@ -85,8 +85,8 @@ const cn = {
     Copy: "全部复制",
     Download: "下载文件",
     Share: "分享到 ShareGPT",
-    MessageFromYou: "用户",
-    MessageFromChatGPT: "ChatGPT",
+    MessageFromYou: "一位不知名的朋友",
+    MessageFromChatGPT: "MahiroAi",
     Format: {
       Title: "导出格式",
       SubTitle: "可以导出 Markdown 文本或者 PNG 图片",
